@@ -1,4 +1,4 @@
-# 📈 S&P 500 AI Financial Data Analyst
+# 📈 S&P 500 AI Financial Automated Data Analyst
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
@@ -11,8 +11,8 @@ An interactive Natural Language to SQL (NL2SQL) chatbot designed to translate co
 
 # 📺 Live Demo
 
-**🔗 Frontend Demo (UI) : [Live Demo on Vercel](#)** <br>
-**🔗 Backend Demo (API) : [Live Demo on Hugging Face Spaces](#)**
+**🔗 Frontend Demo (UI) : [Live Demo on Vercel](snp500-ai-financial-analyst-chatbot.vercel.app)** <br>
+**🔗 Backend Demo (API) : [Live Demo on Hugging Face Spaces](https://sandking-snp-500-ai-financial-chatbot.hf.space/docs)**
 
 
 # ✨ Key Features
