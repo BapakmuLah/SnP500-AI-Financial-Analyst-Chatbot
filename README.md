@@ -11,7 +11,7 @@ An interactive Natural Language to SQL (NL2SQL) chatbot designed to translate co
 
 # 📺 Live Demo
 
-**🔗 Frontend Demo (UI) : [Live Demo on Vercel](snp500-ai-financial-analyst-chatbot.vercel.app)** <br>
+**🔗 Frontend Demo (UI) : [Live Demo on Vercel](https://snp500-ai-financial-analyst-chatbot.vercel.app/)** <br>
 **🔗 Backend Demo (API) : [Live Demo on Hugging Face Spaces](https://sandking-snp-500-ai-financial-chatbot.hf.space/docs)**
 
 
