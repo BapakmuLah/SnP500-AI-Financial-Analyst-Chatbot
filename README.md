@@ -6,7 +6,7 @@
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-An interactive Natural Language to SQL (NL2SQL) chatbot designed to translate conversational queries into actionable financial insights. Built to explore and visualize S&P 500 financial data instantly, this project leverages a sophisticated multi-agent AI architecture to go beyond simple query generation.
+An interactive Natural Language to SQL (NL2SQL) chatbot designed to translate conversational queries into actionable financial insights. Built to explore and visualize S&P 500 financial data instantly, the project leverages a sophisticated multi-agent AI architecture to go beyond simple query generation.
 
 
 # 📺 Live Demo
