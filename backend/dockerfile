@@ -1,0 +1,19 @@
+# INSTALL IMAGE PYTHON
+FROM python:3.10-slim
+
+# SET WORKING DIRECTORY INSIDE CONTAINER
+WORKDIR /code
+
+
+# COPY REQUIREMENTS & INSTALL DEPENDENCIES
+COPY ./requirements.txt /code/requirements.txt
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+
+
+# COPY ALL YOUR FOLDER INTO CONTAINER
+COPY . /code
+
+# RUN
+RUN chmod -R 777 /code/data
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
+

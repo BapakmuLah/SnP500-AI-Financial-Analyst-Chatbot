@@ -1,0 +1,196 @@
+{
+  "table_name": "sp500",
+  "row_count": 505,
+  "description": "S&P 500 companies financial snapshot. Contains data for 505 companies across 11 GICS sectors.",
+  "columns": {
+    "Symbol": {
+      "description": "NYSE/NASDAQ ticker symbol (e.g. AAPL, MSFT). Primary key.",
+      "dtype": "object"
+    },
+    "Name": {
+      "description": "Full company name.",
+      "dtype": "object"
+    },
+    "Sector": {
+      "description": "GICS sector (e.g. Information Technology, Health Care, Financials).",
+      "dtype": "object"
+    },
+    "Price": {
+      "description": "Current stock price in USD.",
+      "dtype": "float64",
+      "stats": {
+        "min": 2.82,
+        "max": 1806.06,
+        "mean": 103.8306,
+        "median": 73.92,
+        "null_count": 0
+      }
+    },
+    "Price/Earnings": {
+      "description": "P/E ratio \u2013 stock price divided by earnings per share. High P/E can indicate growth expectations or overvaluation.",
+      "dtype": "float64",
+      "stats": {
+        "min": -251.53,
+        "max": 520.15,
+        "mean": 24.8084,
+        "median": 19.45,
+        "null_count": 2
+      }
+    },
+    "Dividend Yield": {
+      "description": "Annual dividend as a percentage of stock price. Higher = more income-generating.",
+      "dtype": "float64",
+      "stats": {
+        "min": 0.0,
+        "max": 12.6612,
+        "mean": 1.896,
+        "median": 1.7693,
+        "null_count": 0
+      }
+    },
+    "Earnings/Share": {
+      "description": "EPS \u2013 net profit divided by number of shares. Profitability per share.",
+      "dtype": "float64",
+      "stats": {
+        "min": -28.01,
+        "max": 44.09,
+        "mean": 3.7537,
+        "median": 2.89,
+        "null_count": 0
+      }
+    },
+    "52 Week High": {
+      "description": "Highest stock price in the past 52 weeks.",
+      "dtype": "float64",
+      "stats": {
+        "min": 6.59,
+        "max": 2067.99,
+        "mean": 122.6238,
+        "median": 86.68,
+        "null_count": 0
+      }
+    },
+    "52 Week Low": {
+      "description": "Lowest stock price in the past 52 weeks.",
+      "dtype": "float64",
+      "stats": {
+        "min": 2.8,
+        "max": 1589.0,
+        "mean": 83.5366,
+        "median": 62.85,
+        "null_count": 0
+      }
+    },
+    "Market Cap": {
+      "description": "Total market capitalisation in USD (shares \u00d7 price). Size indicator.",
+      "dtype": "float64",
+      "stats": {
+        "min": 2626102121.0,
+        "max": 809508034020.0,
+        "mean": 49239436929.505,
+        "median": 21400952517.0,
+        "null_count": 0
+      }
+    },
+    "EBITDA": {
+      "description": "Earnings Before Interest, Taxes, Depreciation & Amortisation in USD. Core operational profitability.",
+      "dtype": "float64",
+      "stats": {
+        "min": -5067000000.0,
+        "max": 79386000000.0,
+        "mean": 3590328130.3632,
+        "median": 1614399000.0,
+        "null_count": 0
+      }
+    },
+    "Price/Sales": {
+      "description": "Market cap divided by annual revenue. Useful for companies with no earnings yet.",
+      "dtype": "float64",
+      "stats": {
+        "min": 0.1532,
+        "max": 20.0943,
+        "mean": 3.9417,
+        "median": 2.8964,
+        "null_count": 0
+      }
+    },
+    "Price/Book": {
+      "description": "Stock price divided by book value per share. Values < 1 may indicate undervaluation.",
+      "dtype": "float64",
+      "stats": {
+        "min": 0.51,
+        "max": 1403.38,
+        "mean": 14.4532,
+        "median": 3.4,
+        "null_count": 8
+      }
+    },
+    "SEC Filings": {
+      "description": "URL to the company's SEC EDGAR filings page.",
+      "dtype": "object"
+    }
+  },
+  "sector_distribution": {
+    "Consumer Discretionary": 84,
+    "Information Technology": 70,
+    "Financials": 68,
+    "Industrials": 67,
+    "Health Care": 61,
+    "Consumer Staples": 34,
+    "Real Estate": 33,
+    "Energy": 32,
+    "Utilities": 28,
+    "Materials": 25,
+    "Telecommunication Services": 3
+  },
+  "sample_rows": [
+    {
+      "Symbol": "MMM",
+      "Name": "3M Company",
+      "Sector": "Industrials",
+      "Price": 222.89,
+      "Price/Earnings": 24.31,
+      "Dividend Yield": 2.3328617,
+      "Earnings/Share": 7.92,
+      "52 Week High": 259.77,
+      "52 Week Low": 175.49,
+      "Market Cap": 138721055226.0,
+      "EBITDA": 9048000000.0,
+      "Price/Sales": 4.3902707,
+      "Price/Book": 11.34,
+      "SEC Filings": "http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MMM"
+    },
+    {
+      "Symbol": "AOS",
+      "Name": "A.O. Smith Corp",
+      "Sector": "Industrials",
+      "Price": 60.24,
+      "Price/Earnings": 27.76,
+      "Dividend Yield": 1.1479592,
+      "Earnings/Share": 1.7,
+      "52 Week High": 68.39,
+      "52 Week Low": 48.925,
+      "Market Cap": 10783419933.0,
+      "EBITDA": 601000000.0,
+      "Price/Sales": 3.5754826,
+      "Price/Book": 6.35,
+      "SEC Filings": "http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AOS"
+    },
+    {
+      "Symbol": "ABT",
+      "Name": "Abbott Laboratories",
+      "Sector": "Health Care",
+      "Price": 56.27,
+      "Price/Earnings": 22.51,
+      "Dividend Yield": 1.9089824,
+      "Earnings/Share": 0.26,
+      "52 Week High": 64.6,
+      "52 Week Low": 42.28,
+      "Market Cap": 102121042306.0,
+      "EBITDA": 5744000000.0,
+      "Price/Sales": 3.7404804,
+      "Price/Book": 3.19,
+      "SEC Filings": "http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ABT"
+    }
+  ]
+}

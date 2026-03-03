@@ -1,0 +1,22 @@
+# Web Framework & Server
+fastapi
+uvicorn
+pydantic
+
+# Data Processing & Math
+pandas
+numpy
+scipy
+
+# Visualization
+plotly
+
+# AI & LLM Integration 
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+google-genai
+
+# Environment Variables
+python-dotenv
